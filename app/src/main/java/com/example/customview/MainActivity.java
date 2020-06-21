@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //
         InputNumberView inputNumberView=findViewById(R.id.number_view);
         inputNumberView.setOnNumberNumberChangeListener(new InputNumberView.OnNumberNumberChangeListener() {
             @Override

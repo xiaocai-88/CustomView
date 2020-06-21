@@ -19,6 +19,7 @@ import com.example.customview.R;
  * 3、使用时候将该类名copy references然后在布局中使用即可
  * 4、处理数据，处理事件
  * 5、暴露接口
+ *
  * create by xiaocai on 2020/6/21
  */
 public class InputNumberView extends RelativeLayout {
