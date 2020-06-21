@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:xiaocai="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <com.example.customview.customView.InputNumberView
+        android:id="@+id/number_view"
+        android:layout_width="wrap_content"
+        xiaocai:max="10"
+        xiaocai:min="-10"
+        xiaocai:disable="true"
+        xiaocai:step="2"
+        xiaocai:btnBackground="@drawable/shape_num_btn_bg_right"
+        android:layout_height="wrap_content" />
+</LinearLayout>

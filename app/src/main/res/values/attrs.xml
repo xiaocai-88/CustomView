@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="InputNumberView">
+        <attr name="max" format="integer" />
+        <attr name="min" format="integer" />
+        <attr name="step" format="integer" />
+        <attr name="disable" format="boolean" />
+        <!-- 这样的话就可以直接使用res/values/colors里面的颜色了-->
+        <!-- 如果直接用 format="color" 则是输入#ffffff-->
+        <attr name="btnBackground" format="reference" />
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+</resources>
